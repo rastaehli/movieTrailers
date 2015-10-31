@@ -1,0 +1,14 @@
+Movie Trailer Website
+
+Use Cases
+view home page, see functions, invoke, see result, repeat
+function view recommended movies by title, poster image (scrolling layout)
+function search by title, view possible matches, click to view detail
+function click title/poster to view detail: synopsis, date, cast and crew, play trailer, summary of reviews (word map of important adjectives), ratings
+function click reviews to see list of review detail, button to add a review
+function review: authenticate, enter review, rating, save or cancel.
+function edit my review: authenticate, edit or delete review and rating.
+
+Objects:
+HomePage, MovieListView, SearchTool, MovieImage, MovieTitle, MovieSynopsis, Trailer, RatingsSummary, ReviewsSummary, Rating, ReviewDetail, ReviewTool
+Movie, Person relations (directed, produced, cinematographer, actedIn), User, Review.
